@@ -29,6 +29,7 @@ const PostUser = async ({ userId }) => {
         src={user.img ? user.img : "/noavatar.png"}
         width={50}
         height={50}
+        alt="user profile"
       />
       <div className={styles.texts}>
         <span className={styles.title}>Author</span>
